@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-template <typename T>
-void insertionSort(T d[], int N) {
+template <typename l>
+void insertionSort(l d[], int N) {
     for (int i = 1; i < N; i++) {
-        T key = d[i];
+        l key = d[i];
         int j = i - 1;
 
         while (j >= 0 && d[j] < key) {
